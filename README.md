@@ -45,4 +45,4 @@ A validação do sistema foi feita de forma prática:
 Esses testes ajudaram a garantir que o layout estivesse bem estruturado tanto em telas grandes quanto pequenas.
 
 ### **Link Glitch**
-[Lista de Compras(https://lista-de-compras-julia.glitch.me/)
+https://lista-de-compras-julia.glitch.me/
