@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lista de Compras</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+      <!-- Coluna Esquerda: Formulário -->
+      <div class="coluna-esquerda">
+        <h1>Adicionar Item</h1>
+        <form id="form-item">
+          <input type="text" id="nome" placeholder="Nome do produto" required />
+          <input type="number" id="quantidade" placeholder="Quantidade" min="1" required />
+          <input type="number" id="preco" placeholder="Preço unitário (R$)" step="0.01" min="0" required />
+          <button type="submit">Adicionar</button>
+        </form>
+        <button id="atualizar-api" style="margin-top: 20px;">Atualizar Página</button>
+      </div>
+  
+      <!-- Coluna Direita: Tabela -->
+      <div class="coluna-direita">
+        <h1>Lista de Compras</h1>
+        <table id="tabela-itens">
+          <thead>
+  <tr>
+    <th>Qnt</th>
+    <th>Item</th>
+    <th>Valor Unitário (R$)</th>
+    <th>Total (R$)</th>
+    <th>Ações</th>
+  </tr>
+</thead>
+
+          <tbody></tbody>
+        </table>
+  
+        <div class="total">
+          <strong>Total Geral:</strong> R$ <span id="valor-total">0.00</span>
+        </div>
+      </div>
+    </div>
+  
+    <script src="script.js"></script>
+  </body>  
+</html>
