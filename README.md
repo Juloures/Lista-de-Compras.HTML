@@ -1,4 +1,3 @@
-'''markdown
 # Lista de compras
 
 ## **Descrição**
